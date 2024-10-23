@@ -1,11 +1,9 @@
-import './App.css';
+import React from "react";
+import Navbar from "./components/navbar/Navbar";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Acess Health</h1>
-    </div>
-  );
+  return <Navbar />;
 }
 
 export default App;
