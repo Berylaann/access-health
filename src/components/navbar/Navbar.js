@@ -2,10 +2,10 @@ import React from "react";
 import "./Navbar.css";
 import logo from "../../assets/logohealth.png";
 
-const Navbar = () => {
+function Navbar () {
   return (
-    <nav className="navbar">
-      <img src={logo} alt="My website logo" className="navbar-logo"></img>
+    <nav className="container">
+      <img src={logo} alt="My website logo" className="logo"></img>
       <div>
         <a class="nav-link" href="about.html">
           About
@@ -20,7 +20,7 @@ const Navbar = () => {
           Products
         </a>
         <a class="nav-link" href="contact.html">
-          Contact
+         Contact 
         </a>
       </div>
     </nav>

@@ -1,0 +1,36 @@
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background-image: 
+    url("../../assets/apiltd-coverpage.png");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-text {
+    text-align: center;
+    max-width: 800px;
+}
+.home-text h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(226, 237, 226);
+}
+.home-text p {
+    max-width: 700px;
+    margin: 10px auto 20px;
+    color: #212121;
+}
+.btn-btn {
+  background: #fff;
+  color: #212121;
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+}
