@@ -1,0 +1,32 @@
+.products {
+  margin: 80px auto;
+  width: 90%;
+  text-align: center;
+}
+.product-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.product-img img {
+  width: 23%;
+  border-radius: 10px;
+}
+/* .btn-btn { 
+  background: #fff;
+  color: #212121;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 60px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+ } 
+.btn img {
+    width: 20px;
+    margin-left: 10px;
+}*/

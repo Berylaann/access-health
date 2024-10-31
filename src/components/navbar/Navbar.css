@@ -1,7 +1,7 @@
 nav {
     width: 100%;
     /* background: rgba(252, 252, 252, 0.87); */
-    color: rgb(226, 237, 226);
+    color: rgb(191, 210, 191);
     padding: 10px 0;
     position: fixed;
     top: 0;
@@ -10,6 +10,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     z-index: 10;
+}
+.container{
+  max-width: 100%;
 }
 .logo {
   padding-left: 30px;
@@ -22,4 +25,8 @@ nav {
   margin: 5px 20px;
   font-size: 16px;
   font-weight: bold;
+}
+.dark-nav {
+  background: #0b5504;
+  transition: 0.5s;
 }
