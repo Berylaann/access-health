@@ -6,8 +6,32 @@ import phone_icon from "../../assets/phone-icon.png";
 import location_icon from "../../assets/location-icon.png";
 
 function Contact() {
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "2759b30e-21b5-4a46-9a96-00b96ce964ca");
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    }).then((res) => res.json());
+
+    if (res.success) {
+      console.log("Form Submitted Successfully", res);
+      setResult(res.message);
+      event.target.reset();
+    } else {
+      console.log("Error", res);
+      setResult(res.message);
+    }
+  };
+
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contact-col">
         <h3>
           Send us a message <img src={msg_icon} alt="" />
@@ -35,7 +59,7 @@ function Contact() {
         </ul>
       </div>
       <div className="contact-col">
-        <form>
+        <form onSubmit={onSubmit}>
           <label>Your name</label>
           <input
             type="text"
@@ -53,9 +77,16 @@ function Contact() {
           <label>Write your message here</label>
           <textarea
             type="tel"
-                      name="message" row="6" placeholder="Enter your message" required></textarea>
-                  <button type="submit" className="btn dark-btn">Submit Now</button>
+            name="message"
+            row="6"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+          <button type="submit" className="btn dark-btn">
+            Submit
+          </button>
         </form>
+        <span>{result}</span>
       </div>
     </div>
   );

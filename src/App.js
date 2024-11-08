@@ -8,6 +8,7 @@ import Products from "./components/products/Products";
 import Partners from "./components/partners/Partners";
 import Users from "./components/users/Users";
 import Contact from "./components/contact/Contact";
+import Footer from "./components/footer/Footer";
 
 
 function App() {
@@ -26,7 +27,8 @@ function App() {
         <Title subTitle="OUR USERS" title="Access The Nearest Help" />
         <Users />
         <Title subTitle="CONTACT US" title="Get In Touch" />
-        <Contact/>
+        <Contact />
+        <Footer/>
       </div>
     </>
   );

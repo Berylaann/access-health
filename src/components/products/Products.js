@@ -8,7 +8,7 @@ import Button from "../button/Button";
 
 function Products() {
   return (
-    <div className="products">
+    <div className="products" id="products">
       <div className="product-img">
         <img src={product_img1} alt="product image1" />
         <img src={product_img2} alt="product image2" />

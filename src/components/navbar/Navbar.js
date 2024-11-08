@@ -15,19 +15,19 @@ function Navbar() {
     <nav className={`container ${sticky ? `dark-nav` : ""}`}>
       <img src={logo} alt="My website logo" className="logo"></img>
       <div>
-        <a class="nav-link" href="about.html">
+        <a class="nav-link" href="#about">
           About
         </a>
-        <a class="nav-link" href="services.html">
+        <a class="nav-link" href="#services">
           Services
         </a>
-        <a class="nav-link" href="partners.html">
+        <a class="nav-link" href="#partners">
           Partners
         </a>
-        <a class="nav-link" href="products.html">
+        <a class="nav-link" href="#products">
           Products
         </a>
-        <a class="nav-link" href="contact.html">
+        <a class="nav-link" href="#contact">
           Contact
         </a>
       </div>
