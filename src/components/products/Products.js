@@ -10,10 +10,10 @@ function Products() {
   return (
     <div className="products">
       <div className="product-img">
-        <img src={product_img1} alt="" />
-        <img src={product_img2} alt="" />
-        <img src={product_img3} alt="" />
-        <img src={product_img4} alt="" />
+        <img src={product_img1} alt="product image1" />
+        <img src={product_img2} alt="product image2" />
+        <img src={product_img3} alt="product image3" />
+        <img src={product_img4} alt="product image4" />
       </div>
       <Button
         text="Order here"
