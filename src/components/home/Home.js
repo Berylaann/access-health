@@ -3,7 +3,7 @@ import "./Home.css";
 
 function Home () {
   return (
-    <div className="home">
+    <div className="home"id="home">
       <div className="home-text">
         <h1>Welcome to Access Pharma International</h1>
         <p>

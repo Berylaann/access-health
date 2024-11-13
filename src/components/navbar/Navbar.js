@@ -2,34 +2,69 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/logohealth.png";
 import Button from "../button/Button";
+import { Link } from "react-scroll";
 
 function Navbar() {
   const [sticky, setSticky] = useState(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    const handleScroll = () => {
       window.scrollY > 500 ? setSticky(true) : setSticky(false);
-    });
+    };
+
+    window.addEventListener("scroll", handleScroll)
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+      
   return (
     <nav className={`container ${sticky ? `dark-nav` : ""}`}>
       <img src={logo} alt="My website logo" className="logo"></img>
       <div>
-        <a class="nav-link" href="#about">
+        <Link
+          className="nav-link"
+          to="about"
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
           About
-        </a>
-        <a class="nav-link" href="#services">
+        </Link>
+        <Link
+          className="nav-link"
+          to="services"
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
           Services
-        </a>
-        <a class="nav-link" href="#partners">
+        </Link>
+        <Link
+          className="nav-link"
+          to="partners"
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
           Partners
-        </a>
-        <a class="nav-link" href="#products">
+        </Link>
+        <Link
+          className="nav-link"
+          to="products"
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
           Products
-        </a>
-        <a class="nav-link" href="#contact">
+        </Link>
+        <Link
+          className="nav-link"
+          to="contact"
+          smooth={true}
+          offset={-70}
+          duration={500}
+        >
           Contact
-        </a>
+        </Link>
       </div>
     </nav>
   );

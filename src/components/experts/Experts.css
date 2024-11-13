@@ -1,4 +1,4 @@
-.users {
+.experts {
   margin: 0 80px;
   padding: 0 80px;
   position: relative;
@@ -53,12 +53,12 @@
     margin-right: 10px;
     border: 4px solid ;
 }
-.user-info {
+.expert-info {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
     font-size: 15px;
 }
-.user-info h3 {
+.expert-info h3 {
     color: #0b5504;
 }

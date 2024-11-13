@@ -1,0 +1,47 @@
+.partners {
+  margin: 80px auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.partners img {
+  width: 100%;
+  max-height: 400px;
+  border-radius: 10px;
+  display: block;
+}
+
+.partner {
+  flex-basis: 31%;
+  position: relative;
+}
+.caption {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(72, 85, 70, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  opacity: 0;
+  padding-top: 70%;
+  transition: 0.4s;
+}
+  
+.caption img {
+    width: 60px;
+    margin-bottom: 10px;
+}
+.partner:hover .caption {
+    opacity: 1;
+    padding-top: 0;
+}
