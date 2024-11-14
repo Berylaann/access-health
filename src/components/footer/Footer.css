@@ -21,3 +21,19 @@ text-decoration: none;
 list-style: none;
 color: #212121;
 }
+
+/* -----media query----- */
+
+@media (max-width: 600px) {
+    .footer{
+        display: block;
+        text-align: center;
+    }
+    .footer ul li {
+        margin: 10px;
+        padding: 20px;
+    }
+    .footer ul {
+        margin-top: 10px;
+    }
+}

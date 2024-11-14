@@ -27,17 +27,17 @@ function Experts() {
 
   return (
     <section>
-      <Title subTitle="EXPERTS" title="Chat with an Expert"/>
+      <Title subTitle="EXPERTS" title="Chat with an expert" />
       <div className="experts">
         <img
           src={next_icon}
-          alt="expert image"
+          alt="circle arrow next"
           className="next-btn"
           onClick={slideForward}
         />
         <img
           src={back_icon}
-          alt="expert image"
+          alt="circle arrow back"
           className="back-btn"
           onClick={slideBackward}
         />
@@ -46,7 +46,7 @@ function Experts() {
             <li className="slide">
               <div className="slide"></div>
               <div className="expert-info">
-                <img src={expert_1} alt="expert image1" />
+                <img src={expert_1} alt="a man in suit" />
                 <div>
                   <h3>Dickson Ajame</h3>
                   <span>Access Pharma Ltd, Cameroon</span>
@@ -59,7 +59,7 @@ function Experts() {
               </p>
               <a
                 href="https://www.linkedin.com/in/bah-ajame-dickson-b9a18bb2/"
-                class="btn btn-outline-secondary"
+                className="btn btn-outline-secondary"
               >
                 Connect
               </a>
@@ -67,7 +67,7 @@ function Experts() {
             <li className="slide">
               <div className="slide"></div>
               <div className="expert-info">
-                <img src={expert_2} alt="expert image2" />
+                <img src={expert_2} alt="profile of a lady" />
                 <div>
                   <h3>Beryl Ann</h3>
                   <span>Belle Beryl, UK</span>
@@ -88,7 +88,7 @@ function Experts() {
             <li className="slide">
               <div className="slide"></div>
               <div className="expert-info">
-                <img src={expert_3} alt="expert image3" />
+                <img src={expert_3} alt="head shot of a lady" />
                 <div>
                   <h3>Daryl Dubois</h3>
                   <span>Access Pharma Ltd, Cameroon</span>
@@ -101,7 +101,7 @@ function Experts() {
               </p>
               <a
                 href="https://www.linkedin.com/in/bah-ajame-dickson-b9a18bb2/"
-                class="btn btn-outline-secondary"
+                className="btn btn-outline-secondary"
               >
                 Connect
               </a>
@@ -109,7 +109,7 @@ function Experts() {
             <li className="slide">
               <div className="slide"></div>
               <div className="expert-info">
-                <img src={expert_4} alt="expert image4" />
+                <img src={expert_4} alt="man in blue suit" />
                 <div>
                   <h3>Achoh</h3>
                   <span>Access Pharma International Ltd, Cameroon</span>

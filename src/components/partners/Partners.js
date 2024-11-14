@@ -16,23 +16,23 @@ function Partners() {
       />
       <div className="partners">
         <div className="partner">
-          <img src={partner_img1} alt="partner image" />
+          <img src={partner_img1} alt="topicrem purifying and matifying gel" />
           <div className="caption">
-            <img src={partner_icon1} alt="partner icon" />
+            <img src={partner_icon1} alt="lifestraw logo" />
             <p>LifeStraw</p>
           </div>
         </div>
         <div className="partner">
-          <img src={partner_img2} alt="partner image" />
+          <img src={partner_img2} alt="topicrem active care" />
           <div className="caption">
-            <img src={partner_icon2} alt="partner icon" />
+            <img src={partner_icon2} alt="votre pharmacie logo" />
             <p>Votre Pharmacie</p>
           </div>
         </div>
         <div className="partner">
-          <img src={partner_img3} alt="partner image" />
+          <img src={partner_img3} alt="topicrem purifying and matifying gel" />
           <div className="caption">
-            <img src={partner_icon} alt="partner icon" />
+            <img src={partner_icon} alt="topicrem brand" />
             <p>Topicrem Cosmetics Brand</p>
           </div>
         </div>

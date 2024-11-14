@@ -13,10 +13,10 @@ function Products() {
       <Title subTitle="OUR PRODUCTS" title="Shop our products"/>
         <div className="products">
         <div className="product-img">
-          <img src={product_img1} alt="product image1" />
-          <img src={product_img2} alt="product image2" />
-          <img src={product_img3} alt="product image3" />
-          <img src={product_img4} alt="product image4" />
+          <img src={product_img1} alt="lifestraw go filter" />
+          <img src={product_img2} alt="lifestraw community filter" />
+          <img src={product_img3} alt="lifestraw family filter" />
+          <img src={product_img4} alt="lifestraw max filter" />
         </div>
         <Button
           text="Order here"

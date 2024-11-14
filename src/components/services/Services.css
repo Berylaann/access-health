@@ -37,10 +37,28 @@
 }
 
 .caption img {
-    width: 60px;
-    margin-bottom: 10px;
+  width: 60px;
+  margin-bottom: 10px;
 }
 .service:hover .caption {
-    opacity: 1;
-    padding-top: 0;
+  opacity: 1;
+  padding-top: 0;
+}
+
+/* ----- media query ----- */
+@media (max-width: 650px) {
+  .services {
+    flex-direction: column;
+  }
+  .service {
+    flex-basis: 100%;
+    margin: 20px;
+  }
+  .services img {
+    width: 80%;
+    max-height: 180px;
+    max-width: 250px;
+    border-radius: 10px;
+    display: block;
+  }
 }

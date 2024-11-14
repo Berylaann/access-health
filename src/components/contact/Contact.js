@@ -37,7 +37,7 @@ function Contact() {
       <div className="contact">
         <div className="contact-col">
           <h3>
-            Send us a message <img src={msg_icon} alt="" />
+            Send us a message <img src={msg_icon} alt="message envelop" />
           </h3>
           <p>
             Our mission is to create a business model that empowers healthcare
@@ -47,15 +47,15 @@ function Contact() {
           </p>
           <ul>
             <li>
-              <img src={mail_icon} alt="mail icon" />
+              <img src={mail_icon} alt="open mail" />
               contact@apiltd.co
             </li>
             <li>
-              <img src={phone_icon} alt="phone icon" />
+              <img src={phone_icon} alt="phone" />
               +237 690 803 594
             </li>
             <li>
-              <img src={location_icon} alt="location icon" />
+              <img src={location_icon} alt="location point" />
               Valle Commissariat 12eme Bonamoussadi <br /> P.O Box (BP) 15125
               Akwa, Douala, Cameroon
             </li>

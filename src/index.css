@@ -46,3 +46,39 @@ a {
     width: 20px;
     margin-left: 10px;
 }
+
+/* ----- media query ----- */
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .btn img {
+    width: 18px;
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .btn {
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+
+  .btn img {
+    width: 16px;
+    margin-left: 5px;
+  }
+}
