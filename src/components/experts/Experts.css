@@ -83,7 +83,7 @@
     border: 3px solid #676767;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .expert-info {
     display: block;
     margin-bottom: 10px;

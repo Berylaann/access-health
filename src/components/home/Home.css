@@ -40,20 +40,27 @@
 @media (max-width: 768px) {
   .home-text h1 {
     font-size: 40px;
-    text-align: left;
+    text-align: center;
+    padding-right: 60px;
   }
+.btn-btn {
+  align-items: center;
+  margin-right: 60px;
+}
 }
 
 @media (max-width: 480px) {
   .home-text h1 {
     font-size: 30px;
     max-width: 400px;
-    margin: 15px auto 30px;
+    margin: 15px auto 60px;
     display: inline;
+    padding-right: 60px;
     
   }
   .home-text p {
 font-size: 14px;
 margin: 15px 0;
+padding-right: 60px;
   }
 }

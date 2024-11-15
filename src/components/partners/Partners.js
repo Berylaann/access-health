@@ -1,5 +1,5 @@
-import React from 'react';
-import Title from '../title/Title';
+import React from "react";
+import Title from "../title/Title";
 import "./Partners.css";
 import partner_icon1 from "../../assets/lifestraw_logo.png";
 import partner_icon2 from "../../assets/partner-img3.jpeg";

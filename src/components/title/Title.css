@@ -1,14 +1,24 @@
 .title {
-    text-align: center;
-    color: orange;
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    margin: 70px 0 30px;
+  text-align: center;
+  color: orange;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 70px 0 30px;
 }
 .title h2 {
-    font-size: 25px;
-    color: #040406;
-    margin-top: 5px;
-    text-transform: none;
+  font-size: 25px;
+  color: #0b5504;
+  margin-top: 5px;
+  text-transform: none;
+}
+/* -----media query----- */
+
+@media (max-width: 768px) {
+  .title {
+    padding-right: 60px;
+  }
+  .contact-col {
+    padding-right: 70px;
+  }
 }

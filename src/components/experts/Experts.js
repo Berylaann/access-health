@@ -18,15 +18,15 @@ function Experts() {
     }
     slider.current.style.transform = `translateX(${tx}%)`;
   };
-    const slideBackward = () => {
-      if (tx < 0) {
-        tx += 25;
-      }
-      slider.current.style.transform = `translateX(${tx}%)`;
+  const slideBackward = () => {
+    if (tx < 0) {
+      tx += 25;
+    }
+    slider.current.style.transform = `translateX(${tx}%)`;
   };
 
   return (
-    <section>
+    <section id="experts">
       <Title subTitle="EXPERTS" title="Chat with an expert" />
       <div className="experts">
         <img
